@@ -3,7 +3,7 @@
 
 ## Elicitar requisitos
 
-<img  src="https://github.com/guimaraaes/fg-ultrasonic-light/blob/main/examples-platformIO/ultrasonic-light/assets/requisitos.png" width="100%" height="100%">
+<img  src="https://github.com/guimaraaes/fg-ultrasonic-light/blob/main/assets/requisitos.png" width="100%" height="100%">
 
 ## Plano de Teste 
 
@@ -15,7 +15,7 @@ Na etapa de plano de teste, temos:
 
 ## Esquemático do circuito eletrônico
 
-<img  src="https://github.com/guimaraaes/fg-ultrasonic-light/blob/main/examples-platformIO/ultrasonic-light/assets/esquematico-circuito.png" width="30%" height="30%">
+<img  src="https://github.com/guimaraaes/fg-ultrasonic-light/blob/main/assets/esquematico-circuito.png" width="30%" height="30%">
 
 ## Arquitetura do projeto
 Ao criar o projeto com o PlatformIO, a estrutura do projeto deve ser atualizada para a seguinte:

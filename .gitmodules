@@ -1,0 +1,3 @@
+[submodule "FrameworkGuimaraes"]
+	path = FrameworkGuimaraes
+	url = https://github.com/guimaraaes/FrameworkGuimaraes.git

@@ -7,7 +7,7 @@
 
 ## Plano de Teste 
 
-Na etapa de plano de teste, temos:
+Na etapa de plano de teste, temos: 
 
 - Definir o caso de teste usando BDD para especificar o **Contexto** do caso de teste e as condições de **Dado**, **Quando** e **Então**.
 - O critério de parada fica por decisão do desenvolvedor.

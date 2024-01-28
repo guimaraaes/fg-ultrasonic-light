@@ -29,7 +29,7 @@ public:
       light->write(LOW);
       delay(1000);
     }
-    if (distance >= 30)
+    else if (distance >= 30)
     {
       light->write(HIGH);
       delay(1000);

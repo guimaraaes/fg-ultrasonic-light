@@ -24,14 +24,14 @@ public:
   {
     float distance = ultrasonic->read();
 
-    if (distance < 30)
-    {
-      light->write(LOW);
-      delay(1000);
-    }
-    else if (distance >= 30)
+    if (distance >= 10 && distance <= 30)
     {
       light->write(HIGH);
+      delay(1000);
+    }
+    else
+    {
+      light->write(LOW);
       delay(1000);
     }
   }

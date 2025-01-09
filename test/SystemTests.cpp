@@ -27,7 +27,7 @@ public:
 
 UltrasonicLightSystemTests systemTests = UltrasonicLightSystemTests();
 
-// test(teste40cm)
+// test(testeUltrasonico40cm_LuzDesligada)
 // {
 //     systemTests.enter("Teste ultrassonico 40 cm e Led LOW"); // Log sistema
 //     assertTrue(embeddedSystem.ultrasonic->behavior->isComponentInValue(40, 5, SearchType::NEXT));
@@ -35,7 +35,7 @@ UltrasonicLightSystemTests systemTests = UltrasonicLightSystemTests();
 //     systemTests.exit(); // Limpeza histórico
 // }
 
-test(test20cm)
+test(testeUltrasonico20cm_LuzLigada)
 {
     systemTests.enter("Teste ultrassonico 20 cm e Led HIGH"); // Log sistema
     assertTrue(embeddedSystem.ultrasonic->behavior->isComponentInValue(20, 5, SearchType::NEXT));
